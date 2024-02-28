@@ -1,12 +1,7 @@
 import Navbar from "@/components/Navbar";
-import { openGraphImage } from "@/data.js";
 
 export const metadata = {
-  title: "About | Nitika Jain",
-  openGraph: {
-    ...openGraphImage,
-    title: "About | Nitika Jain",
-  },
+  title: "About",
   description: "Portfolio website, built with Next.js",
 };
 
