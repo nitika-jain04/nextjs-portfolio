@@ -19,7 +19,7 @@ export default function HeroPage() {
         </h2>
         <p className="text-base mt-2 text-gray-400 max-w-lg leading-7">
           Hi, I'm{" "}
-          <span className="text-[#d0d4e8] text-lg italic tracking-wide hover:text-[#d3d5dd] hover:cursor-pointer animate__animated animate__pulse">
+          <span className="text-[#d0d4e8] text-lg italic tracking-wide hover:cursor-pointer">
             Nitika Jain
           </span>
           . A passionate and dedicated Front-End React Developer based in
