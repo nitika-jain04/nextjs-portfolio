@@ -91,13 +91,13 @@ export default function HeroPage() {
           data-aos="fade-up"
           data-aos-duration="2000"
         >
-          <h1 className="text-gray-400 mt-1 hidden xl:flex xl:items-center">
+          <h1 className="text-gray-400 mt-1 hidden xl:flex xl:items-center xl:justify-center">
             Tech Stack |
           </h1>
           <h1 className="text-gray-400 mt-1 lg:mt-20 xl:hidden text-lg md:text-xl underline underline-offset-4">
             Tech Stack
           </h1>
-          <h2 className="flex gap-3 ml-2 mt-5">
+          <h2 className="flex gap-3 ml-2 mt-5 xl:mt-0">
             <FaReact
               size={35}
               className="text-blue-500 font-bold transition-all ease-in-out duration-200 hover:-translate-y-3"
