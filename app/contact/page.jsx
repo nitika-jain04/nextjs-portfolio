@@ -30,15 +30,15 @@ export default function Contact() {
       );
   };
   return (
-    <div className="px-10 pt-20 pb-80 md:px-32 md:pt-40 md:pb-96 lg:px-60 lg:pb-[136px] flex gap-5 h-fit bg-[#111111] bg-opacity-95">
+    <div className="pt-20 px-5 md:pt-32 md:px-10 lg:pt-36 pb-[307px] md:pb-[535px] xl:pb-[144px] lg:px-40 xl:px-60 flex gap-5 lg:gap-10 bg-[#111111] bg-opacity-95">
       <div>
         <Toaster toastOptions={{ duration: 6000 }} />
       </div>
-      <div className="w-1/2 flex flex-col gap-5 justify-center">
-        <h3 className="text-2xl md:text-4xl lg:text-5xl text-white">
+      <div className="w-1/2 flex flex-col gap-2 lg:gap-5 justify-center">
+        <h3 className="text-3xl md:text-5xl xl:text-5xl text-white">
           Let's chat.
         </h3>
-        <h3 className="text-2xl md:text-4xl lg:text-5xl text-white">
+        <h3 className="text-3xl md:text-5xl xl:text-5xl text-white">
           Tell me about your<br></br> project.
         </h3>
         <h5 className="text-white mt-5">Let's create something together🤘🏻</h5>
@@ -69,18 +69,21 @@ export default function Contact() {
         <h2 className="text-xl">Send me a message🚀</h2>
         <input
           type="text"
+          required
           name="sender_name"
           placeholder="Full name*"
           className="border-2 border-gray-400 px-5 py-2 placeholder:text-gray-500 focus:border-gray-800 focus:border-2 focus:outline-none transition-all duration-500 rounded-lg"
         />
         <input
-          type="text"
+          type="email"
+          required
           name="sender_email"
           placeholder="Email address*"
           className="border-2 border-gray-400 px-5 py-2 placeholder:text-gray-500 focus:border-gray-800 focus:border-2 focus:outline-none transition-all duration-500 rounded-lg"
         />
         <textarea
           name="message"
+          required
           cols="30"
           rows="5"
           placeholder="Your message*"
