@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta property="og:image" content="/public/opengraph-Img.png" />
-        <meta property="og:title" content="Nitika Jain" />
+        <meta property="og:title" content="Nitika Jain Portfolio" />
         <meta
           property="og:description"
           content="Portfolio website, built with Next.js"
