@@ -37,7 +37,7 @@ export default function HeroPage() {
           className="flex justify-center items-center mt-10 hero-img"
         />
       </div>
-      <div className="px-5 mt-5 xl:px-40 xl:mt-48 flex flex-col items-center text-center">
+      <div className="px-5 mt-5 xl:px-52 xl:mt-48 flex flex-col items-center text-center">
         <h2
           className="text-4xl md:text-5xl font-bold tracking-wide text-white leading-tight"
           data-aos="fade-up"
@@ -98,48 +98,63 @@ export default function HeroPage() {
             Tech Stack
           </h1>
           <h2 className="flex gap-3 ml-2 mt-5 xl:mt-0">
-            <FaReact
-              size={35}
-              className="text-blue-500 font-bold transition-all ease-in-out duration-200 hover:-translate-y-3"
-              data-aos="fade-right"
-              data-aos-duration="1500"
-              data-aos-delay="300"
-            />
-            <TbBrandNextjs
-              size={35}
-              className="transition-all ease-in-out duration-200 hover:-translate-y-3"
-              data-aos="fade-right"
-              data-aos-duration="1600"
-              data-aos-delay="400"
-            />
-            <IoLogoJavascript
-              size={35}
-              className="text-yellow-500 transition-all ease-in-out duration-200 hover:-translate-y-3"
-              data-aos="fade-right"
-              data-aos-duration="1700"
-              data-aos-delay="500"
-            />
-            <SiTailwindcss
-              size={35}
-              className="text-blue-800 transition-all ease-in-out duration-200 hover:-translate-y-3"
-              data-aos="fade-right"
-              data-aos-duration="1800"
-              data-aos-delay="600"
-            />
-            <FaCss3
-              size={35}
-              className="text-blue-800 transition-all ease-in-out duration-200 hover:-translate-y-3"
-              data-aos="fade-right"
-              data-aos-duration="1900"
-              data-aos-delay="700"
-            />
-            <FaHtml5
-              size={35}
-              className="text-orange-600 transition-all ease-in-out duration-200 hover:-translate-y-3"
-              data-aos="fade-right"
-              data-aos-duration="2000"
-              data-aos-delay="800"
-            />
+            <div className="hover-translate">
+              <FaReact
+                size={35}
+                className="text-blue-500 font-bold transition-all ease-in-out duration-200"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+                data-aos-delay="300"
+              />
+            </div>
+            <div className="hover-translate">
+              <TbBrandNextjs
+                size={35}
+                className="transition-all ease-in-out duration-200 hover:translate-y-3 text-white"
+                data-aos="fade-right"
+                data-aos-duration="1600"
+                data-aos-delay="400"
+              />
+            </div>
+            <div className="hover-translate">
+              <IoLogoJavascript
+                size={35}
+                className="text-yellow-500 transition-all ease-in-out duration-200 hover:-translate-y-3"
+                data-aos="fade-right"
+                data-aos-duration="1700"
+                data-aos-delay="500"
+              />
+            </div>
+            <div className="hover-translate">
+              <SiTailwindcss
+                size={35}
+                className="text-blue-800 transition-all ease-in-out duration-200
+              hover:-translate-y-3"
+                data-aos="fade-right"
+                data-aos-duration="1800"
+                data-aos-delay="600"
+              />
+            </div>
+
+            <div className="hover-translate">
+              <FaCss3
+                size={35}
+                className="text-blue-800 transition-all ease-in-out duration-200 hover:-translate-y-3"
+                data-aos="fade-right"
+                data-aos-duration="1900"
+                data-aos-delay="700"
+              />
+            </div>
+
+            <div className="hover-translate">
+              <FaHtml5
+                size={35}
+                className="text-orange-600 transition-all ease-in-out duration-200 hover:-translate-y-3"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="800"
+              />
+            </div>
           </h2>
           <h2 className="mb-[116px] md:mb-[138px] lg:mb-[219px] xl:mb-[222px]"></h2>
         </div>
@@ -150,11 +165,7 @@ export default function HeroPage() {
         data-aos-duration="2000"
         className="hidden xl:inline-flex"
       >
-        <img
-          src="/photo.png"
-          alt=""
-          className="flex justify-center items-center mt-32 hero-img"
-        />
+        <img src="/photo.png" alt="image" className="flex mt-32 hero-img" />
       </div>
     </div>
   );
