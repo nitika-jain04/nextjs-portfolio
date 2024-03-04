@@ -30,12 +30,12 @@ export default function Contact() {
       );
   };
   return (
-    <div className="pt-20 px-5 md:pt-32 md:px-10 lg:pt-36 pb-[307px] md:pb-[535px] xl:pb-[144px] lg:px-40 xl:px-60 flex gap-5 lg:gap-10 bg-[#111111] bg-opacity-95">
+    <div className="pt-20 px-20 md:pt-32 md:px-10 lg:pt-36 pb-[307px] md:pb-[535px] xl:pb-[144px] lg:px-40 xl:px-60 flex flex-col lg:flex-row gap-5 lg:gap-10 bg-[#111111] bg-opacity-95">
       <div>
         <Toaster toastOptions={{ duration: 6000 }} />
       </div>
-      <div className="w-1/2 flex flex-col gap-2 lg:gap-5 justify-center">
-        <h3 className="text-3xl md:text-5xl xl:text-5xl text-white">
+      <div className="flex flex-col gap-2 lg:gap-5 justify-center">
+        <h3 className="text-4xl md:text-5xl xl:text-5xl text-white">
           Let's chat.
         </h3>
         <h3 className="text-3xl md:text-5xl xl:text-5xl text-white">
@@ -43,7 +43,7 @@ export default function Contact() {
         </h3>
         <h5 className="text-white mt-5">Let's create something together🤘🏻</h5>
 
-        <div className="flex gap-5 mt-10">
+        <div className="flex gap-5 mt-5">
           <a
             href="https://github.com/nitika-jain04?tab=repositories"
             target="_blank"
@@ -64,7 +64,7 @@ export default function Contact() {
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="px-5 py-9 w-1/2 flex flex-col gap-5 h-full bg-white drop-shadow-xl shadow-lg rounded-md shadow-gray-500 animate__animated animate__tada animate__slower"
+        className="px-5 py-9 mt-5 flex flex-col gap-5 h-full bg-white drop-shadow-xl shadow-lg rounded-md shadow-gray-500 animate__animated animate__tada animate__slower"
       >
         <h2 className="text-xl">Send me a message🚀</h2>
         <input
