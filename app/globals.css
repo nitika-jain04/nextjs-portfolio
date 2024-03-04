@@ -60,8 +60,8 @@ body {
   height: 15rem;
 
   @media screen and (min-width: 800px) {
-    width: 20rem;
-    height: 20rem;
+    width: 18rem;
+    height: 18rem;
   }
   border: 3px solid white;
 
@@ -101,4 +101,9 @@ figure {
 .hover01 figure:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+/* landing page icons*/
+.hover-translate:hover {
+  transform: translateY(-15px);
 }
