@@ -30,7 +30,7 @@ export default function Contact() {
       );
   };
   return (
-    <div className="pt-20 px-20 md:pt-32 md:px-10 lg:pt-36 pb-[307px] md:pb-[535px] xl:pb-[144px] lg:px-40 xl:px-60 flex flex-col lg:flex-row gap-5 lg:gap-10 bg-[#111111] bg-opacity-95">
+    <div className="pt-10 px-20 md:pt-24 md:px-10 lg:pt-20 pb-[307px] md:pb-[535px] xl:pb-[144px] lg:px-40 xl:px-60 flex flex-col lg:flex-row gap-5 lg:gap-10 bg-[#111111] bg-opacity-95">
       <div>
         <Toaster toastOptions={{ duration: 6000 }} />
       </div>
