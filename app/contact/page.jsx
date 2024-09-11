@@ -15,7 +15,7 @@ export default function Contact() {
 
     emailjs
       .sendForm("service_50kkxqo", "template_9k4swg8", form.current, {
-        publicKey: "AjvxKixLiV2IdLdxX",
+        publicKey: "-bktKBaSbYugtJA2R",
       })
       .then(
         () => {
