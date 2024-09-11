@@ -85,11 +85,11 @@ const Projects = () => {
         impactful solutions and pushing the boundaries of technology.
       </h3>
 
-      <div className="flex flex-col gap-14 mt-10 hover01 column">
+      <div className="flex flex-col gap-14 mt-10">
         {projectsData.map((project, index) => (
           <article
             key={index}
-            className="grid grid-cols-1 gap-5 h-[500px]"
+            className="grid grid-cols-1 gap-5 min-h-[450px] bg-yellow-200"
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
@@ -109,7 +109,7 @@ const Projects = () => {
             <div className="grid grid-cols-1 gap-3 px-5 md:px-10">
               <h3 className="text-xl font-bold text-white">{project.title}</h3>
               <p className="text-gray-400 text-base">{project.description}</p>
-              <div className="flex gap-5 pt-1">
+              <div className="flex gap-5 pt-1 bg-green-300">
                 <a
                   href={project.githubLink}
                   target="_blank"
