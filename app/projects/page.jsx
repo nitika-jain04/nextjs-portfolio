@@ -89,7 +89,7 @@ const Projects = () => {
         {projectsData.map((project, index) => (
           <article
             key={index}
-            className="grid grid-cols-1 gap-5"
+            className="grid grid-cols-1 gap-5 h-[500px]"
             data-aos="zoom-in"
             data-aos-duration="2000"
           >
